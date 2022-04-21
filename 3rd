@@ -1,0 +1,166 @@
+//        name = findViewById(R.id.name);
+//        add = findViewById(R.id.add);
+//        radioGroup=(RadioGroup)findViewById(R.id.radioGroup);
+//        int selectedId = radioGroup.getCheckedRadioButtonId();
+//
+//        data_submit = findViewById(R.id.data_submit);
+//        result = findViewById(R.id.result);
+//        genderradioButton = (RadioButton) findViewById(selectedId);
+
+//        data_submit.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                String std_name = name.getText().toString();
+//                String address = add.getText().toString();
+//                if(selectedId==-1){
+//                    result.setText(selectedId+" nothing");
+//                }else{
+//                    result.setText(std_name + " "+ address+" "+ genderradioButton.getText());
+//                }
+//
+//            }
+//        });
+
+
+//        first_data = findViewById(R.id.first_data);
+//        Button button = (Button) findViewById(R.id.calculate);
+//        if (button != null) {
+//            button.setOnClickListener((View view) -> {
+//                first_data.setText("This is inner lambda expression");
+//                Toast.makeText(this,"Lambda function used", Toast.LENGTH_LONG).show();
+//            });
+//        }
+
+//        f = findViewById(R.id.f);
+//        s = findViewById(R.id.s);
+//        calculate = findViewById(R.id.calculate);
+//        result = findViewById(R.id.result);
+//        calculate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                int fi = Integer.parseInt(f.getText().toString());
+//                int se = Integer.parseInt(s.getText().toString());
+//
+//                result.setText("The sum : " +(fi+se));
+//            }
+//        });
+
+//        no = findViewById(R.id.no);
+//        calculate = findViewById(R.id.calculate);
+//        result = findViewById(R.id.result);
+//        calculate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                int num = Integer.parseInt(no.getText().toString());
+//                boolean flag = false;
+//                for (int i = 2; i <= num / 2; ++i) {
+//                    if (num % i == 0) {
+//                        flag = true;
+//                        break;
+//                    }
+//                }
+//                if (!flag) {
+//                    result.setText(num +"is prime no");
+//                }else {
+//                    result.setText(num +"is not prime no");
+//                }
+//            }
+//        });
+
+
+
+        //        name,add,ph,em,pn;
+//        name = findViewById(R.id.name);
+//        add = findViewById(R.id.add);
+//        ph = findViewById(R.id.ph);
+//        em = findViewById(R.id.em);
+//        pn = findViewById(R.id.pn);
+//        calculate = findViewById(R.id.calculate);
+//        result = findViewById(R.id.result);
+//        calculate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                String na = name.getText().toString();
+//                String addresses = add.getText().toString();
+//                String phn = ph.getText().toString();
+//                String emn = em.getText().toString();
+//                String pnn = pn.getText().toString();
+//                result.setText("Name : "+na+" address : "+addresses+" phone-no : "+phn+" E-Mail : "+emn+" Pan-No : "+pnn);
+//            }
+//        });
+
+//        Radius_data = findViewById(R.id.Radius_data);
+//        Area = findViewById(R.id.Area);
+//        result_data = findViewById(R.id.result_data);
+//        Circum = findViewById(R.id.Circum);
+
+//        Area.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                int radius = Integer.parseInt(Radius_data.getText().toString());
+//                int area_data = radius*radius;
+//                result_data.setText("Area : "+area_data);
+//            }
+//        });
+//        Circum.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                int radius = Integer.parseInt(Radius_data.getText().toString());
+//                int circum_data = 2*(22/7)*radius;
+//                result_data.setText("Circumference : "+circum_data);
+//            }
+//        });
+
+
+//        double comp_int = princ *(Math.pow((1 + rt / 100), tm));
+//        Calculate compund interestt
+//        PI = findViewById(R.id.PI);
+//        r = findViewById(R.id.r);
+//        t = findViewById(R.id.t);
+//        n = findViewById(R.id.n);
+//        calculate = findViewById(R.id.calculate);
+//        result = findViewById(R.id.result);
+//
+//        calculate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                int P = Integer.parseInt(PI.getText().toString());
+//                int rci = Integer.parseInt(r.getText().toString());
+//                int tci = Integer.parseInt(t.getText().toString());
+//                int nci = Integer.parseInt(n.getText().toString());
+//                double answer = P * (Math.pow((1+rci/nci),(tci*nci)));
+//                result.setText("The CI is  : "+answer);
+//            }
+//        });
+//        a = findViewById(R.id.a);
+//        b = findViewById(R.id.b);
+//        c = findViewById(R.id.c);
+//
+//        d = findViewById(R.id.d);
+//        e = findViewById(R.id.e);
+//        calculate = findViewById(R.id.calculate);
+//        result = findViewById(R.id.result);
+//        calculate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                int f = Integer.parseInt(a.getText().toString());
+//                int s = Integer.parseInt(b.getText().toString());
+//                int t = Integer.parseInt(c.getText().toString());
+//                int ff = Integer.parseInt(d.getText().toString());
+//                int fd = Integer.parseInt(e.getText().toString());
+//                if(f>=s && f>=t){
+//                    result.setText("The greatest no is  : "+f);
+//                }else if(s>=f && s>=t){
+//                    result.setText("The greatest no is  : "+s);
+//                }else{
+//                    result.setText("The greatest no is  : "+t);
+//
+//                }
+////                result.setText(f + " " + s + " " + t + " " + ff + " " +fd);
+//                result.setText("The avg of five no  : "+(f+s+t+ff+fd)/5);
+//
+//            }
+//        });
+
+
